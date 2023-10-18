@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(to left, #4d70b8, #8134af);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  height: 900px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 100px 2px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+form {
+  width: 600px;
+  height: auto;
+}
+
+.fascia, .buttons {
+  width: 200px;
+  height: 108px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+select {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  transition: all 0.5s;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#ris {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border: 2px solid white;
+}
